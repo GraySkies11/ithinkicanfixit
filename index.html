@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kawaii D&D Sheet</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500&family=Quicksand&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 20px;
+      background: linear-gradient(to bottom, #ffe6f0, #fff);
+      font-family: 'Quicksand', sans-serif;
+      color: #4b4453;
+    }
+
+    .container {
+      background: #fff7fb;
+      border-radius: 25px;
+      max-width: 850px;
+      margin: 0 auto;
+      padding: 30px;
+      box-shadow: 0 0 20px rgba(255, 192, 203, 0.3);
+    }
+
+    h1 {
+      font-family: 'Fredoka', cursive;
+      font-size: 2.5em;
+      text-align: center;
+      color: #ff69b4;
+      margin-bottom: 30px;
+    }
+
+    .section {
+      margin-bottom: 25px;
+    }
+
+    .label {
+      font-weight: bold;
+      margin-bottom: 5px;
+      color: #d63384;
+      display: block;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 12px;
+      font-size: 1.1rem;
+      border: 2px solid #ffcce5;
+      border-radius: 15px;
+      background-color: #fff;
+      font-family: 'Quicksand', sans-serif;
+      box-shadow: inset 0 0 5px #ffebf5;
+    }
+
+    .stats {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      justify-content: space-between;
+    }
+
+    .stat {
+      flex: 1 1 30%;
+      background: #ffe0f0;
+      text-align: center;
+      border-radius: 15px;
+      padding: 15px;
+      box-shadow: 0 2px 5px rgba(255, 192, 203, 0.4);
+    }
+
+    .stat label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 5px;
+      color: #e75480;
+    }
+
+    .stat input {
+      width: 60%;
+      text-align: center;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 40px;
+      color: #999;
+      font-size: 0.9rem;
+    }
+
+    .doodle {
+      width: 100px;
+      display: block;
+      margin: 20px auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🌸 Kawaii Character Sheet 🌸</h1>
+
+    <div class="section">
+      <label class="label">Character Name</label>
+      <input type="text" placeholder="Mochi-chan ✨" />
+    </div>
+
+    <div class="section">
+      <label class="label">Class & Level</label>
+      <input type="text" placeholder="Magical Girl 3" />
+    </div>
+
+    <div class="section stats">
+      <div class="stat">
+        <label>💪 STR</label>
+        <input type="text" placeholder="10" />
+      </div>
+      <div class="stat">
+        <label>🩰 DEX</label>
+        <input type="text" placeholder="14" />
+      </div>
+      <div class="stat">
+        <label>🍰 CON</label>
+        <input type="text" placeholder="12" />
+      </div>
+      <div class="stat">
+        <label>📚 INT</label>
+        <input type="text" placeholder="16" />
+      </div>
+      <div class="stat">
+        <label>🔮 WIS</label>
+        <input type="text" placeholder="11" />
+      </div>
+      <div class="stat">
+        <label>💖 CHA</label>
+        <input type="text" placeholder="18" />
+      </div>
+    </div>
+
+    <div class="section">
+      <label class="label">Personality & Traits</label>
+      <textarea rows="4" placeholder="Sparkles with every step! Secretly scared of frogs."></textarea>
+    </div>
+
+    <div class="section">
+      <label class="label">Backstory</label>
+      <textarea rows="5" placeholder="Once a bakery assistant, now moonlight guardian of dreams..."></textarea>
+    </div>
+
+    <div class="section">
+      <label class="label">Inventory</label>
+      <textarea rows="4" placeholder="Glitter Wand, Ribbon of Resolve, Magical Donut Charm"></textarea>
+    </div>
+
+    <img src="https://static.vecteezy.com/system/resources/previews/017/218/451/original/cute-sparkle-star-kawaii-cartoon-icon-illustration-vector.jpg" alt="Sparkle" class="doodle"/>
+
+    <div class="footer">
+      ✨ Made with pastel power 💕 Customize as you wish!
+    </div>
+  </div>
+</body>
+</html>
